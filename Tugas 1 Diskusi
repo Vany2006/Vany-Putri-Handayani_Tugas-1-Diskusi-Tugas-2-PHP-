@@ -1,0 +1,26 @@
+TUGAS BAGIAN 1 (ARSITEKTUR WEB APLIKASI)
+
+Question 
+1) Jelaskan skenario dimana arsitektur monolitik mungkin menjadi pilihan yg lebih baik daripada microservice?
+Answer : Menurut saya, kelebihan arsitektur monolitik itu dapat optimal digunakan untuk pengembangan proyek 
+dan memiliki tahap yg terstruktur, mulai dari Database hingga tampilan User Interface, seperti pada bagan yg 
+tertera di contoh SOA. Selain itu, kita juga bisa melihat pada bagian kelebihan performa yg dimana pada 
+arsitektur monolitik ini terdapat informasi mengenai proses komunikasi antar komponen terjadi di dalam proses
+yg sama sehingga sangat cepat untuk melakukan sebuah proyek, jika dibandingkan dengan arsitektur microservice
+memiliki kekurangan pada tantangan jaringan yaitu komunikasi antar layanan melalui jaringan dapat menimbulkan
+latensi yg dimana proses penyesuaian beberapa database itu terpisah. Sehingga Kurang optimal jika penyesuaian 
+Database Terpisah.
+
+2) Apa Tantangan Keamanan terbesar yang mungkin dihadapi saat beralih dari arsitektur monolitik ke microservice?
+Answer : Dalam Arsitektur monolitik proses data hanya satu kali login dan bertahap sehingga tidak masalah jika 
+sistem keamanan hanya 1, jika beralih pada microservice keamanan autentikasi dan otorisasi harus memiliki sistem 
+keamanan di setiap database yg tersedia. Selain itu, jika terdapat kesalahan pada sistem, untuk menganalisis sebuah 
+performa masalah akan lebih sulit, karena terdapat beberapa cabang.
+
+3) Bagaimana arsitektur serverless dapat mengubah cara sebuah tim startup mnegembangkan produk pertama mereka?
+Answer : fokuskan pada satu develop code yg dibuat saja, dan jika pada sebuah perusaan startup mungkin saja bisa
+memulai dengan fuction code yg di jalankan dan data yg diberikan utk di simpan dan di kembangkan.
+
+
+
+ 
